@@ -13,9 +13,10 @@
 10. set the env variables
    ```
    DATABASE_URL = "mysql://root:passwordofyourcloudsqlinstances:3306/yourdatabasename?socket=/cloudsql/instancesconnectionname"
-   PORT = 8080 //your_choice
-   JWT_SECRET = "your_choice"
-   MODEL_URL = "your_choice"
+   PORT = 8080 //yours
+   JWT_SECRET = "yours"
+   MODEL_URL = "yours"
+   GOOGLE_APPLICATION_CREDENTIALS = "yours"
    ```
 11. deploy
 12. integrate the api to mobile app
